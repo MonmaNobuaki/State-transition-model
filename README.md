@@ -16,7 +16,7 @@ cd State-transition-model
 There are two repogitories, which are 4-node and 16-node network model. I reccomend you to do the four node model, firstly. 
 
 # Caution 
-If you want to analuze the network with more than 16-nodes, you need huge size of RAM(Random Access Memory). This is because the elements of the steta-transition matrix T exponentially increase with the number of nodes _N_.
+You need huge size of RAM in your PC. For example, 32 GB of RAM is neeeded to analyze the network with more than 16-nodes. This is because the elements of the steta-transition matrix **T** exponentially increase with the number of nodes _N_.
 
 
 ## Usage
