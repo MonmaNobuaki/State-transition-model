@@ -14,9 +14,12 @@ git clone https://github.com/MonmaNobuaki/State-transition-model.git
 cd State-transition-model
 ```
 
-## Usage
+# Caution 
+If you want to analuze the network with more than 16-nodes, you need st least 32 GB RAM. This is because the steta-transition matrix .
 
-Before executing,set the number of pixels in height and width of the file you want to convert in line 9 of the script. 
+
+## Usage
+If you want to analuze the network with more than 16-nodes, you have to prepare enough RAM.
 
 Please execute the script with the following command
 
