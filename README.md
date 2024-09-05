@@ -13,6 +13,7 @@ git clone https://github.com/MonmaNobuaki/State-transition-model.git
 ```bash
 cd State-transition-model
 ```
+There are two repogitories, which are 4-node and 16-node network model. I reccomend you to do the four node model, firstly. 
 
 # Caution 
 If you want to analuze the network with more than 16-nodes, you need st least 32 GB RAM. This is because the steta-transition matrix .
