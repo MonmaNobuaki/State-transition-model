@@ -1,7 +1,4 @@
 # State-Transition-model
-The state-transiton model enable us to analyze the structue-function relationship in neuronal networks, based on the Markov chain model. The main paper is [here](https://arxiv.org/abs/2404.16582).  
-
-# Introduction
 
 The state-transition model enable us to analyze the structure-function relationship in neuronal networks, mathematically. This model is developed by coarse-graining cultured neuronal networks and adapting them to the Markov chain model (The main paper is [here](https://arxiv.org/abs/2404.16582)).  This model has three advantages.
 
