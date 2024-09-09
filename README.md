@@ -55,15 +55,11 @@ $(3)$ Inference of correlation coefficients $\langle \tilde{r}_{ij} \rangle$
  From the stationary distribution $\vec{p}(\infty)$, the correlation coefficients $\tilde{r}_{ij}$ was caluclated, given by;
 
 $$
-\tilde{r}_{ij} = \frac{\sigma_{ij}}{\sqrt{\sigma_{ii}\sigma_{jj}}}, 
+  \tilde{r}_{ij} = \frac{\sigma_{ij}}{\sqrt{\sigma_{ii}\sigma_{jj}}}, \sigma_{ij} = \sum_{k=0}^{2^N-1} p_k(\infty) \left( s_k(i) - \bar{s}(i) \right)\left( s_k(j) - \bar{s}(j) \right),
 $$
 
 $$
-\sigma_{ij} = \sum_{k=0}^{2^N-1} p_k(\infty) \left( s_k(i) - \bar{s}(i) \right)\left( s_k(j) - \bar{s}(j) \right),
-$$
-
-$$
-\bar{s}(i) = \sum_{k=0}^{2^N-1} p_k(\infty)s_k(i).
+  \bar{s}(i) = \sum_{k=0}^{2^N-1} p_k(\infty)s_k(i).
 $$
 
  For example, the synchronization can be inferred from the mean value of $\tilde{r}_{ij}$. The detail of the analysis is described in the main  [paper](https://arxiv.org/abs/2404.16582).
