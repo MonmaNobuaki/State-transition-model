@@ -1,7 +1,7 @@
 
 # State-Transition Model
 
-The State-Transition Model enables the mathematical analysis of the structure-function relationship in neuronal networks. This model was developed by coarse-graining cultured neuronal networks and adapting them to the Markov chain model. You can find the main paper [here](https://arxiv.org/abs/2404.16582). The model offers three key advantages:
+The State-Transition Model enables the mathematical analysis of the structure-function relationship in neuronal networks. This model was developed by coarse-graining cultured neuronal networks and adapting them to the Markov chain model. You can find the main paper [here](https://arxiv.org/abs/2404.16582). The model offers two key advantages:
 
 1. **State Probability Calculation**: The occurrence probability of all network states can be derived through the eigen-decomposition of the state-transition matrix, denoted as $\mathrm{T}$.
 2. **Network Dynamics Inference**: Dynamics such as synchronization and complexity, which depend on the network structure, can be inferred using the correlation coefficients $\langle \tilde{r}_{ij} \rangle$, corresponding to the Pearson correlation.
