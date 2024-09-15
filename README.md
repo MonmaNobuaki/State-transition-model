@@ -3,7 +3,7 @@
 The state-transition model enable us to analyze the structure-function relationship in neuronal networks, mathematically. This model is developed by coarse-graining cultured neuronal networks and adapting them to the Markov chain model (The main paper is [here](https://arxiv.org/abs/2404.16582)).  This model has three advantages.
 
 1. The occurrence probability of all networks states can be derived by eigen-decomposition of state-transition matrix $\mathrm{T}$. 
-2. This model is able to derive the correlation coefficients $\langle \tilde{r}_{ij} \rangle$, corresponding the Pearson collation used in the wet experiments and spiking neural networks.
+2. This model is able to derive the correlation coefficients $\langle \tilde{r}_{ij} \rangle$, corresponding the Pearson correlation used in the wet experiments and spiking neural networks.
 3. The network dynamics such as synchronization and complexity depending on the network structures can be inferred with the state-transition model without trial and error like the wet experiments and spiking neural networks.
 
 Despite its high usefulness, this model also has a drawback that computational complexity increases exponentially, since  the size of state-transition matrix $\mathrm{T}$ is $2^N \times 2^N$  (For  example, the size of the state transition matrix in the network with 16 nodes is 32 GB). Along with that, the computational cost of eigen decomposition becomes heavy.  This is the general problems in the Markov chain model. By developing the theoretical methodologies,  these challenges can be overcome in the future.
