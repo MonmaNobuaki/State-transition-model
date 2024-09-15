@@ -1,47 +1,46 @@
-# State-Transition-model
 
-The state-transition model enable us to analyze the structure-function relationship in neuronal networks, mathematically. This model is developed by coarse-graining cultured neuronal networks and adapting them to the Markov chain model (The main paper is [here](https://arxiv.org/abs/2404.16582)).  This model has three advantages.
+# State-Transition Model
 
-1. The occurrence probability of all networks states can be derived by eigen-decomposition of state-transition matrix $\mathrm{T}$. 
-2. This model is able to derive the correlation coefficients $\langle \tilde{r}_{ij} \rangle$, corresponding the Pearson correlation used in the wet experiments and spiking neural networks.
-3. The network dynamics such as synchronization and complexity depending on the network structures can be inferred with the state-transition model without trial and error like the wet experiments and spiking neural networks.
+The State-Transition Model enables the mathematical analysis of the structure-function relationship in neuronal networks. This model was developed by coarse-graining cultured neuronal networks and adapting them to the Markov chain model. You can find the main paper [here](https://arxiv.org/abs/2404.16582). The model offers three key advantages:
 
-Despite its high usefulness, this model also has a drawback that computational complexity increases exponentially, since  the size of state-transition matrix $\mathrm{T}$ is $2^N \times 2^N$  (For  example, the size of the state transition matrix in the network with 16 nodes is 32 GB). Along with that, the computational cost of eigen decomposition becomes heavy.  This is the general problems in the Markov chain model. By developing the theoretical methodologies,  these challenges can be overcome in the future.
+1. **State Probability Calculation**: The occurrence probability of all network states can be derived through the eigen-decomposition of the state-transition matrix, denoted as $\mathrm{T}$.
+2. **Network Dynamics Inference**: Dynamics such as synchronization and complexity, which depend on the network structure, can be inferred using the correlation coefficients $\langle \tilde{r}_{ij} \rangle$, corresponding to the Pearson correlation.
+
+Despite its usefulness, the model's computational complexity grows exponentially due to the size of the state-transition matrix $\mathrm{T}$, which is $2^N \times 2^N$. For instance, in a network with 16 nodes, the state-transition matrix requires 32 GB of memory. Additionally, the computational cost of eigen-decomposition becomes significant. These challenges are typical of the Markov chain model, but future theoretical advancements could help mitigate them.
 
 ## Installation
 
-All code is written in MATLAB. Please prepare for its license.
+This repository is written in MATLAB. Please ensure you have access to a MATLAB license.
 
-1. Clone this repository in command line.
+1. Clone the repository via the command line:
+   ```bash
+   git clone https://github.com/MonmaNobuaki/State-transition-model.git
+   ```
 
-```bash
-git clone <https://github.com/MonmaNobuaki/State-transition-model.git>
-```
+2. Navigate to the repository:
+   ```bash
+   cd State-transition-model
+   ```
 
-1. Go into the repository.
+The repository contains models for both 4-node and 16-node networks. It is recommended to start with the 4-node model before scaling up.
 
-```bash
-cd State-transition-model
-```
+## System Requirements
 
-There are two repositories, which are 4-node and 16-node network model. I recommend you to do the four node model, firstly.
-
-# Caution
-
-You need huge size of RAM in your PC. For example, 32 GB of RAM is needed to analyze the network with more than 16-nodes as discussed in the introduction. 
+A significant amount of RAM is required for larger networks. For example, analyzing a network with more than 16 nodes requires at least 32 GB of RAM, as mentioned earlier.
 
 ## Usage
 
-If you want to analyze the network with more than 16-nodes, you have to prepare enough RAM.
+To analyze networks with more than 16 nodes, ensure that your system has sufficient RAM. You can run the model by executing the provided MATLAB script:
 
-Please execute the script with the following command
+```matlab
+% Example command to run the script
+run('your_script.m')
+```
 
 ## Contact
 
-If you have any questions, please contact the author.
+If you have any questions or issues, feel free to reach out to the author.
 
 ## License
 
-Copyright (c) 2024 Nobuaki Monma
-
-This software is released under the MIT License, see LICENSE.txt.
+This software is released under the MIT License. For more details, see [LICENSE.txt](LICENSE.txt).
