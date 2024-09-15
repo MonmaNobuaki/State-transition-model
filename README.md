@@ -31,12 +31,7 @@ A significant amount of RAM is required for larger networks. For example, analyz
 
 ## Usage
 
-To analyze networks with more than 16 nodes, ensure that your system has sufficient RAM. You can run the model by executing the provided MATLAB script:
-
-```matlab
-% Example command to run the script
-run('your_script.m')
-```
+To analyze networks with more than 16 nodes, ensure that your system has sufficient RAM. You can run the model by executing the provided MATLAB script.
 
 # Example
 
