@@ -12,6 +12,8 @@ Despite its usefulness, the model's computational complexity grows exponentially
 
 This repository is written in MATLAB. Please ensure you have access to a MATLAB license.
 
+ 
+
 1. Clone the repository via the command line:
    ```bash
    git clone https://github.com/MonmaNobuaki/State-transition-model.git
@@ -22,11 +24,6 @@ This repository is written in MATLAB. Please ensure you have access to a MATLAB 
    cd State-transition-model
    ```
 The repository contains models for both 4-node and 16-node networks. It is recommended to start with the 4-node model before scaling up.
-
-1. **4-node network**
-
-2. **16-node network**
-
 
 ## System Requirements
 
@@ -40,6 +37,15 @@ To analyze networks with more than 16 nodes, ensure that your system has suffici
 % Example command to run the script
 run('your_script.m')
 ```
+
+# Example
+
+1. **4-node network**
+
+
+2. **16-node network**
+
+
 
 ## Contact
 
