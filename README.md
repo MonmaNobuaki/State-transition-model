@@ -21,8 +21,12 @@ This repository is written in MATLAB. Please ensure you have access to a MATLAB 
    ```bash
    cd State-transition-model
    ```
-
 The repository contains models for both 4-node and 16-node networks. It is recommended to start with the 4-node model before scaling up.
+
+1. **4-node network**
+
+2. **16-node network**
+
 
 ## System Requirements
 
