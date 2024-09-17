@@ -27,7 +27,7 @@ The repository contains models for both 4-node and 16-node networks. It is recom
 
 ## System Requirements
 
-A significant amount of RAM is required for larger networks. For example, analyzing a network with more than 16 nodes requires at least 32 GB of RAM, as mentioned earlier.
+A significant amount of RAM is required for larger networks. For example, analyzing a network with 16 nodes requires at least 32 GB of RAM, as mentioned earlier.
 
 ## Usage
 
